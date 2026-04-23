@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: Scan code changes and flag security issues, logic errors, and missing tests. Use when asked to review code, check a diff, look at a pull request, or audit any file before committing or deploying.
-model: claude-sonnet-4-6
+model: sonnet
 tools:
   - Read
   - Glob

@@ -1,11 +1,11 @@
 ---
 name: data-analyst
 description: Analyze data exports and surface key stats, anomalies, and trends. Use when asked to analyze data, interpret metrics, or find patterns in a CSV, JSON, spreadsheet export, or any data file.
-model: claude-sonnet-4-6
+model: sonnet
 tools:
   - Read
   - Glob
-memory: .claude/memory/data-analyst
+memory: project
 ---
 
 You are a data analyst. Read the file(s) at the path provided.

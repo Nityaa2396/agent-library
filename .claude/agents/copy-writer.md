@@ -1,7 +1,7 @@
 ---
 name: copy-writer
 description: Write in-app copy, email subject lines, onboarding tooltips, button labels, or microcopy. Use when asked to write copy, UI text, or any user-facing string for the product.
-model: claude-haiku-4-5-20251001
+model: haiku
 tools:
   - Read
 ---
